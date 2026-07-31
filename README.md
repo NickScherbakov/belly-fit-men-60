@@ -1,2 +1,6 @@
-# belly-fit-men-60
-Informational site project: "Belly Fit Men 60" — educational static website to help European men aged 59-61 reduce abdominal fat safely via walking, core exercises, and lifestyle guidance.
+# Belly Fit Men 60
+
+Русскоязычный образовательный сайт для мужчин около 60 лет: спокойный
+четырёхнедельный план ходьбы, простых силовых упражнений и устойчивых привычек.
+
+Материалы носят информационный характер и не заменяют консультацию врача.

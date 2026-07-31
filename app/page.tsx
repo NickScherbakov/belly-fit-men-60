@@ -70,46 +70,33 @@ export default function Home() {
       </header>
 
       <section className="hero" id="top">
+        <img
+          className="hero-visual"
+          src="hero-v2.png"
+          alt="Мужчина около 60 лет идёт спокойным шагом"
+        />
         <div className="shell hero-grid">
           <div className="hero-copy">
             <p className="eyebrow">Практическое руководство · 59–61 год</p>
-            <h1>Меньше живот.<br />Больше жизни.</h1>
+            <h1>Тоньше талия —<br />дольше жизнь!</h1>
+            <p className="hero-promise">Спокойный план на 4 недели</p>
             <p className="hero-lead">
-              Спокойный план на четыре недели: ходьба, простые силовые упражнения
-              и питание без экстремальных диет. Начните с того уровня, который
-              подходит вам сегодня.
+              Ходьба, простые силовые упражнения и питание без экстремальных
+              диет. Начните с того уровня, который подходит вам сегодня.
             </p>
             <div className="hero-actions">
               <a className="button button-primary" href="#plan">Открыть план</a>
               <a className="button button-ghost" href="#safety">Сначала о безопасности</a>
             </div>
           </div>
-
-          <aside className="week-card" aria-label="Ориентир на неделю">
-            <div className="week-card-top">
-              <span>Ориентир на неделю</span>
-              <span className="status-dot">без спешки</span>
-            </div>
-            <div className="big-number">150</div>
-            <p className="big-number-label">минут умеренной активности</p>
-            <div className="mini-stats">
-              <div><strong>2×</strong><span>силовые</span></div>
-              <div><strong>7–8 ч</strong><span>сон</span></div>
-              <div><strong>1 шаг</strong><span>за раз</span></div>
-            </div>
-            <p className="source-note">
-              Ориентир ВОЗ — не стартовая норма. Если вы давно не занимались,
-              увеличивайте нагрузку постепенно.
-            </p>
-          </aside>
         </div>
       </section>
 
       <section className="proof-strip" aria-label="Основные принципы">
         <div className="shell proof-grid">
-          <div><span>01</span><p>Никакого героизма</p></div>
-          <div><span>02</span><p>Регулярность вместо рывков</p></div>
-          <div><span>03</span><p>Талия меняется постепенно</p></div>
+          <div><span>150</span><p>минут движения в неделю</p></div>
+          <div><span>2×</span><p>спокойные силовые занятия</p></div>
+          <div><span>01</span><p>шаг за раз — без героизма</p></div>
         </div>
       </section>
 

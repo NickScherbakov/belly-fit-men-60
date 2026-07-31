@@ -15,21 +15,21 @@ const sourceSerif = Source_Serif_4({
 const siteUrl = "https://nickscherbakov.github.io/belly-fit-men-60";
 
 export const metadata: Metadata = {
-  title: "Belly Fit Men 60 — спокойный план для здоровья",
+  title: "Тоньше талия — дольше жизнь! | Belly Fit Men 60",
   description:
     "Практичный четырёхнедельный план ходьбы, силовых упражнений и питания для мужчин около 60 лет.",
   openGraph: {
-    title: "Меньше живот. Больше жизни.",
+    title: "Тоньше талия — дольше жизнь!",
     description: "Спокойный план на четыре недели для мужчин около 60 лет.",
     type: "website",
     locale: "ru_RU",
-    images: [{ url: `${siteUrl}/og.png`, width: 1733, height: 907, alt: "Belly Fit Men 60" }],
+    images: [{ url: `${siteUrl}/og-v2.png`, width: 1733, height: 907, alt: "Belly Fit Men 60" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Меньше живот. Больше жизни.",
+    title: "Тоньше талия — дольше жизнь!",
     description: "Спокойный план на четыре недели для мужчин около 60 лет.",
-    images: [`${siteUrl}/og.png`],
+    images: [`${siteUrl}/og-v2.png`],
   },
 };
 

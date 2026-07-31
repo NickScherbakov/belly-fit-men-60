@@ -34,7 +34,8 @@ a { color: inherit; }
   min-height: 86px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: clamp(24px, 4vw, 64px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.22);
 }
 .brand {
